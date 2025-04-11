@@ -1,0 +1,22 @@
+.diff-viewer {
+  flex: 1;
+}
+
+/* Diff viewer styles */
+.diff-line {
+  font-family: monospace;
+  white-space: pre-wrap;
+}
+
+.added {
+  background-color: #e6ffed;
+}
+
+.removed {
+  background-color: #ffeef0;
+  text-decoration: line-through;
+}
+
+.unchanged {
+  color: #666;
+}
